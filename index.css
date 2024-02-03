@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Navigation bar design */
+
+span {
+    color: rgb(255, 84, 0);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 20px;
+    align-items: center;
+}
+
+.navbar01 img {
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar01 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar01>a {
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 10px;
+
+}
+
+.navbar02 a {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(66, 66, 71);
+    margin-left: 35px;
+}
+
+
+
+/* Image cover section */
+
+.img-container {
+
+    width: 80%;
+    margin: 50px auto;
+    object-fit: cover;
+    border: 1px solid red;
+    position: relative;
+}
+
+.gradient {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to bottom, rgba(19, 19, 24, 0.8), transparent);
+    position: absolute;
+    border-radius: 15px;
+
+}
+
+.img-container img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Image cover upper text decoration */
+
+.basic-element {
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 175px;
+    right: auto;
+
+}
+
+.text-container {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.text-container h1 {
+    margin-bottom: 24px;
+    font-size: 64px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.text-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.input-container {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 16px 0;
+    text-align: center;
+}
+
+.t1,
+.t2 {
+    padding: 16px 16px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.5);
+}
+
+.t2 {
+    background-color: rgb(255, 84, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
