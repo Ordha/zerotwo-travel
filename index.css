@@ -50,12 +50,13 @@ a {
     color: rgb(66, 66, 71);
     margin-left: 35px;
 }
-.icon-mobile{
+
+.icon-mobile {
     display: none;
 }
 
 
-/* Image cover section */
+/* Image cover section decoration*/
 
 .img-container {
 
@@ -81,7 +82,7 @@ a {
     display: block;
 }
 
-/* Image cover upper text decoration */
+/* Image cover section (upper text decoration) */
 
 .basic-element {
     width: 70%;
@@ -137,4 +138,74 @@ a {
     color: white;
     font-size: 16px;
     font-weight: 700;
+}
+
+/* Our Popular Tour Section Decoration */
+
+.twoside-container {
+    border: 1px solid red;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.first-container {
+    width: 48%;
+    border: 1px solid red;
+}
+
+.first-container h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.first-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: color: rgba(19, 19, 24, 0.7);
+    
+}
+
+.first-container li {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-left: 2%;
+    color: color: rgba(19, 19, 24, 0.7);
+    ;
+}
+
+.t4 {
+    margin-bottom: 24px;
+}
+
+.t5 {
+    margin-bottom: 4%;
+}
+
+.t6 {
+    width: 35%;
+    padding: 14px 35px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+    color: white;
+}
+
+.second-container {
+    width: 48%;
+    border: 1px solid red;
+}
+
+.second-container img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    height: 100%;
 }
