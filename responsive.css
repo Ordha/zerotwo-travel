@@ -47,6 +47,7 @@
     .t6 {
         width: 45%;
         font-size: 18px;
+        padding: 10px 30px;
     }
     
 }
@@ -54,8 +55,13 @@
 /* For mobile device */
 
 @media screen and (max-width:600px) {
+    /* Navigation bar */
+    .navbar{
+        width: 90%;
+    }
     .navbar02{
         display: none;
+        
     }
     .navbar01>a {
         font-size: 26px;
@@ -65,10 +71,10 @@
         width: 70%;
         top: 4%;
     }
-
+    /* Image coover section */
     .img-container {
 
-        width: 80%;
+        width: 90%;
         height: 400px;
     }
     .img-container img {
@@ -112,6 +118,7 @@
         flex-direction: column;
         gap: 5%;
         height: 800px;
+        width: 90%;
     }
     .first-container {
         width: 100%;
@@ -136,7 +143,9 @@
     }
     .t6 {
         width: 50%;
-        font-size: 14px;
+        font-size: 15px;
+        padding: 10px 25px;
+        
     }
     .second-container {
         width: 100%;
