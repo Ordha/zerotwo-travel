@@ -174,7 +174,7 @@ a {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
-    margin-left: 2%;
+    margin-left: 5%;
     color: rgba(19, 19, 24, 0.7);
 
 }
@@ -247,7 +247,7 @@ a {
     color: white;
     font-size: 28px;
     font-weight: 800;
-    
+
 }
 
 .img2-container img {
@@ -264,7 +264,7 @@ a {
     grid-row: 1/span 1;
     border: 1px solid yellow;
     position: relative;
-    
+
 }
 
 .p1 {
@@ -275,6 +275,11 @@ a {
     width: 40%;
     text-align: center;
     border: 1px solid red;
+}
+
+.img2-container p {
+    font-size: 28px;
+    font-weight: 800;
 }
 
 .grid-item2 {
@@ -311,4 +316,177 @@ a {
     grid-column: 6/span 7;
     grid-row: 3/span 1;
     position: relative;
+}
+
+/* Why choose us section decoration */
+.why-choose-container {
+    width: 85%;
+    border: 1px solid red;
+    margin: 60px auto;
+
+}
+
+.why-choose-text-container {
+    border: 1px solid red;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.why-choose-text-container h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.why-choose-text-container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.7);
+}
+
+.why-choose-color1-container {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+
+.text-color1 {
+    width: 49%;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    background-color: rgba(251, 181, 99, 0.05);
+    border-radius: 16px;
+}
+
+.text-color2 {
+    width: 49%;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background-color: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-color2-container {
+    width: 49%;
+    margin: 20px auto;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+
+}
+
+/* Common text image decoration */
+.text-container1 {
+    margin: 32px 32px;
+}
+
+.text-container1 img {
+    padding-bottom: 32px;
+}
+
+.text-container1 h2 {
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.text-container1 p {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Deal and Discount Section Decoration */
+.deal-discount-container {
+    border: 1px solid red;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.deal-imag1 {
+    width: 100%;
+    border: 1px solid red;
+    position: relative;
+    margin-top: 24px;
+
+}
+
+.deal-imag1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* blur white bg with text start */
+.deal-text-container {
+    width: 50%;
+    border: 1px solid rgb(68, 0, 255);
+    border-radius: 16px;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2px);
+    padding: 50px 50px;
+}
+
+/* blur white bg with text end */
+
+.deal-text-logo img {
+    width: 6%;
+}
+
+.deal-text-logo {
+    display: flex;
+    display: inline-flex;
+    gap: 2px;
+}
+
+.deal-text-container h2 {
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.c1 {
+    margin: 16px 0;
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.c2 {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.deal-btn {
+    padding: 14px 25px;
+    border-radius: 8px;
+    background-color: rgb(255, 84, 0);
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.deal-text-logo p {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 15px;
+}
+
+.deal-text-container1 {
+    width: 50%;
+    border: 1px solid rgb(68, 0, 255);
+    border-radius: 16px;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(2px);
+    padding: 50px 50px;
 }

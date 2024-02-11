@@ -63,8 +63,43 @@
     .img2-container{
         gap: 15px;
     }
+    .p1{
+        left: 20%;
+        width: 60%;
+    }
+    .img2-container p {
+        font-size: 25px;
+    }
+    /* Deal and Discount sector */
+    .deal-text-container {
+        width: 55%;
+        right: 5%;
+        top: 10%;
+        padding: 30px 35px;
+    }
+    .deal-text-container h2 {
+        margin-top: 18px;
+        font-size: 18px;
+    }
+    .c1 {
+        margin: 12px 0;
+        font-size: 15px;
+    }
     
-    
+    .c2 {
+        margin-bottom: 22px;
+        font-size: 18px;
+    }
+    .deal-btn {
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+    .deal-text-container1 {
+        width: 55%;
+        left: 5%;
+        top: 10%;
+        padding: 30px 35px;
+    }
     
 }
 
@@ -220,6 +255,88 @@
         object-fit: cover;
         border-radius: 15px;
         display: block;
+    }.p1{
+        left: 25%;
+        width: 50%;
+    }
+    .img2-container p {
+        font-size: 20px;
     }
     
+    /* Why you choose us sector */
+    .why-choose-container {
+        width: 90%;
+    }
+    .why-choose-text-container {
+        width: 75%;
+    }
+    .why-choose-text-container h1 {
+        font-size: 20px;
+    }
+    
+    .why-choose-text-container p {
+        font-size: 15px;
+    }
+    .why-choose-color1-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: 16px auto;
+    }
+    .text-color1, .text-color2, .why-choose-color2-container{
+        width: 100%;
+    }
+    .text-container1 h2{
+        font-size: 20px;
+    }
+    .text-container1 p{
+        font-size: 15px;
+    }
+
+    /* Deals and Discount sector */
+    .deal-discount-container{
+        width: 90%;
+    }
+    .deal-imag1{
+        width: 100%;
+        height: 500px;
+        margin-top: 18px;
+    }
+    .deal-text-container {
+        width: 90%;
+        margin: 0 auto;
+        right: 5%;
+        top: 35%;
+        padding: 22px 22px;
+    }
+
+    .deal-text-logo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .deal-text-container h2 {
+        margin-top: 16px;
+        font-size: 20px;
+    }
+    
+    .c1 {
+        margin: 9px 0;
+        font-size: 14px;
+    }
+    
+    .c2 {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+    .deal-btn {
+        padding: 9px 20px;
+        font-size: 18px;
+    }
+    .deal-text-container1 {
+        width: 90%;
+        margin: 0 auto;
+        right: 5%;
+        top: 35%;
+        padding: 22px 22px;
+    }
 }
