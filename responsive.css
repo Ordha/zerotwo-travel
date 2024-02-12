@@ -233,7 +233,6 @@
 
     .first-container {
         width: 100%;
-        border: 1px solid red;
         margin-bottom: 5%;
     }
 
@@ -449,7 +448,6 @@
 
     .simple-text-container {
         width: 100%;
-        border: 1px solid red;
     }
 
     .simple-text-container h1 {
@@ -470,7 +468,6 @@
 
     .simple-img-container {
         width: 100%;
-        border: 1px solid red;
     }
     .simple-text {
         width: 70%;
@@ -517,6 +514,12 @@
         font-size: 20px
     }
     .form-text {
-        width: 80%;
+        width: 85%;
+    }
+
+    /* footer */
+    .footer-text {
+        width: 90%;
+        margin: 0 auto;
     }
 }
