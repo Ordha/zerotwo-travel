@@ -548,6 +548,10 @@ a {
     font-weight: 700;
 }
 
+.simple-text-container li {
+    margin-bottom: 16px;
+}
+
 .simple-btn {
     padding: 14px 42px;
     color: rgb(255, 255, 255);
@@ -600,28 +604,178 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
-#icon2{
+
+#icon2 {
     position: absolute;
     bottom: 12%;
     right: 15%;
     color: rgb(243, 243, 243);
 }
-#icon3{
+
+#icon3 {
     position: absolute;
     bottom: 12%;
     right: 8%;
     color: rgb(243, 243, 243);
 }
-#icon4{
+
+#icon4 {
     position: absolute;
     bottom: 12%;
     right: 3%;
     color: rgb(243, 243, 243);
 }
-.line{
+
+.line {
     position: absolute;
     bottom: 6%;
     width: 96%;
     left: 2%;
     border: 1px solid rgb(243, 243, 243);
+}
+
+/* Newsletter section decoration */
+.sletter-container {
+    width: 85%;
+    height: 380px;
+    margin: 60px auto;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sletter-text-container {
+    width: 42%;
+    height: 100%;
+    border: 1px solid rgb(255, 84, 0);
+    border-radius: 8px;
+}
+
+.text-sletter-container {
+
+    margin: 40px 40px;
+}
+
+.sletter-text-container h3 {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sletter-text-container p {
+    color: rgb(90, 90, 93);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.sletter-text-container hr {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    margin: 23px 0;
+}
+
+.sletter-input {
+    width: 100%;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sletter-btn {
+    width: 100%;
+    padding: 14px 0;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    background: rgb(255, 84, 0);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sletter-img-container {
+    width: 56%;
+    height: 100%;
+    border: 1px solid red;
+    position: relative;
+}
+
+.sletter-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.travel-discount {
+    width: 40%;
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    position: absolute;
+    z-index: 3;
+    padding: 14px 20px;
+    text-align: center;
+    color: white;
+    right: 1%;
+    top: 60%;
+    transform: rotate(-22deg);
+}
+
+.travel-discount p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.travel-discount h3 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* Bonus */
+.form {
+    width: 85%;
+    border: 1px solid red;
+    margin: 0px auto;
+    margin-bottom: 30px;
+}
+
+.form-text {
+    width: 40%;
+    border: 1px solid blue;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.form h2 {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.form-text p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0;
+    
+}
+.form-input{
+    width: 60%;
+    
+}
+.form-btn{
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: 0;
+    background-color: rgb(255, 84, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    
 }

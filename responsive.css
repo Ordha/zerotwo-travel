@@ -122,17 +122,30 @@
 
     /* Simple perfect place sector */
     .simple-text-container h1 {
-        font-size: 35px;
+        font-size: 33px;
     }
 
     .simple-text-container p {
-        margin: 20px 0;
+        margin: 19px 0;
         font-size: 15px;
     }
 
     .simple-text {
         width: 60%;
         left: 20%;
+    }
+
+    /* Newsletter sector */
+    .travel-discount {
+        width: 50%;
+        top: 63%;
+        transform: rotate(-23deg);
+    }
+    .travel-discount p {
+        font-size: 20px;
+    }
+    .travel-discount h3 {
+        font-size: 25px;
     }
 }
 
@@ -322,8 +335,9 @@
     }
 
     .p1 {
-        left: 25%;
-        width: 50%;
+        
+        
+        align-items: center;
     }
 
     .img2-container p {
@@ -462,5 +476,47 @@
         width: 70%;
         left: 15%;
         align-items: center;
+    }
+
+    /* Newsletter sector */
+    .sletter-container {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .sletter-text-container {
+        width: 100%;
+    }
+    .sletter-img-container {
+        width: 100%;
+        height: 300px;
+    }
+    .travel-discount {
+        width: 70%;
+        right: 2%;
+        top: 45%;
+    }
+    
+    .travel-discount p {
+        font-size: 15px;
+    }
+    
+    .travel-discount h3 {
+        font-size: 21px;
+    }
+
+    /* bonus */
+    .form{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .form h2 {
+        font-size: 20px
+    }
+    .form-text {
+        width: 80%;
     }
 }
